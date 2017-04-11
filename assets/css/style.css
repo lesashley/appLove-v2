@@ -9,7 +9,7 @@
 }
 header{
   position: fixed;
-  background: white;
+  background: rgb(250, 249, 250);
   width: 100%;
   top: 0;
 }
@@ -110,10 +110,6 @@ figcaption{
 .picture {
   display: inline-block;
 }
-.products a{
-  display: inline-block;
-  margin: 30px;
-}
 
 .picture .close{
   display: none;
@@ -145,20 +141,22 @@ figcaption{
 
 .modal img{
   border: 10px solid white;
-  margin: 10% auto;
+  margin: 5% auto;
   text-align: center;
   width: 500px;
   height: 500px;
 }
-
+.modal figcaption{
+  display: none;
+}
 .close {
 	background: #606061;
 	color: #FFFFFF;
 	line-height: 25px;
 	position: absolute;
 	text-align: center;
-	top: 10%;
-  left: 63%;
+	top: 14%;
+  left: 64%;
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
