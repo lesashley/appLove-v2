@@ -98,6 +98,7 @@ footer{
   height: 300px;
   display: inline-block;
   margin: 20px;
+  border-radius: 10px;
   /*position: relative;*/
 }
 figcaption{
@@ -106,13 +107,8 @@ figcaption{
   display: inline-block;
   /*position: absolute;*/
 }
-
-.products figure{
-  box-sizing: border-box;
+.picture {
   display: inline-block;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
 }
 .products a{
   display: inline-block;
